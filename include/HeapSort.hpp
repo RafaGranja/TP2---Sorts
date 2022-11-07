@@ -9,46 +9,49 @@ class HeapSort: public Vetor{
 
     public:
     
-        void heap(int Esq, int Dir){
-            int i, j;
-            int x;
-            i = Esq;
-            j = i * 2;
-            x = elements[i];
-            stats->comparar();
-            while (j <= Dir){
+        void heapsort(int n) {
+            int i = n / 2, pai, filho, t;
+            while(true) {
                 stats->comparar();
+                if (i > 0) {
+                    i--;
+                    t = elements[i];
+                } else {
+                    n--;
+                    stats->comparar();
+                    if (n <= 0) return;
+                    t = elements[n];
+                    elements[n] = elements[0];
+                }
+                pai = i;
+                filho = i * 2 + 1;
                 stats->comparar();
-                stats->comparar();
-                stats->comparar();
-                if (j < Dir) 
-                if (elements[j] < elements[j+1]) j++;
-                if (x >= elements[j]) break;
-                elements[i] = elements[j];
-                i = j;
-                j = i *2;
-            }
-            
-            elements[i] = x;
-        }
-
-        void heapSort(int n) {
-            int Esq;
-            Esq = n / 2 + 1;
-            stats->comparar();
-            while (Esq > 1) {
-                stats->comparar();
-                Esq--;
-                heap(Esq, n);
+                while (filho < n) {
+                    stats->comparar();
+                    if ((filho + 1 < n)  &&  (elements[filho + 1] > elements[filho])){
+                        filho++;
+                    }
+                    stats->comparar();
+                    if (elements[filho] > t) {
+                        elements[pai] = elements[filho];
+                        pai = filho;
+                        filho = pai * 2 + 1;
+                    } else {
+                        break;
+                    }
+                    stats->comparar();
+                }
+                elements[pai] = t;
             }
         }
         
         void Sort (char* saida)
         {    
 
+            stats->comparar();
             if(size <= 1) return;
 
-            heapSort(size-1);
+            heapsort(size);
             snapshot(saida);
 
         }

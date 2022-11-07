@@ -1,145 +1,145 @@
 ------------------------- QuicksortRecursivo -------------------------------------- 
 QuicksortRecursivo 1000
-TEMPO DE EXECUÇÃO: 0.000483
+TEMPO DE EXECUÇÃO: 0.000492
 NUMERO DE COMPARACOES: 13766
  ------------------------------------------- 
 QuicksortRecursivo 5000
-TEMPO DE EXECUÇÃO: 0.001810
+TEMPO DE EXECUÇÃO: 0.001722
 NUMERO DE COMPARACOES: 78608
  ------------------------------------------- 
 QuicksortRecursivo 10000
-TEMPO DE EXECUÇÃO: 0.003711
+TEMPO DE EXECUÇÃO: 0.003614
 NUMERO DE COMPARACOES: 170892
  ------------------------------------------- 
 QuicksortRecursivo 50000
-TEMPO DE EXECUÇÃO: 0.020252
+TEMPO DE EXECUÇÃO: 0.020595
 NUMERO DE COMPARACOES: 1012750
  ------------------------------------------- 
 QuicksortRecursivo 100000
-TEMPO DE EXECUÇÃO: 0.042217
+TEMPO DE EXECUÇÃO: 0.043278
 NUMERO DE COMPARACOES: 2280239
  ------------------------------------------- 
 QuicksortRecursivo 500000
-TEMPO DE EXECUÇÃO: 0.248587
+TEMPO DE EXECUÇÃO: 0.250157
 NUMERO DE COMPARACOES: 12510824
  ------------------------------------------- 
 QuicksortRecursivo 1000000
-TEMPO DE EXECUÇÃO: 0.516299
+TEMPO DE EXECUÇÃO: 0.530346
 NUMERO DE COMPARACOES: 26253287
  ------------------------------------------- 
 ------------------------- QuicksortMediana -------------------------------------- 
 QuicksortSelecao 1000
-TEMPO DE EXECUÇÃO: 0.000448
+TEMPO DE EXECUÇÃO: 0.000426
 NUMERO DE COMPARACOES: 12215
  ------------------------------------------- 
 QuicksortSelecao 5000
-TEMPO DE EXECUÇÃO: 0.001594
+TEMPO DE EXECUÇÃO: 0.001681
 NUMERO DE COMPARACOES: 70865
  ------------------------------------------- 
 QuicksortSelecao 10000
-TEMPO DE EXECUÇÃO: 0.003338
+TEMPO DE EXECUÇÃO: 0.003437
 NUMERO DE COMPARACOES: 153853
  ------------------------------------------- 
 QuicksortSelecao 50000
-TEMPO DE EXECUÇÃO: 0.018103
+TEMPO DE EXECUÇÃO: 0.018300
 NUMERO DE COMPARACOES: 909457
  ------------------------------------------- 
 QuicksortSelecao 100000
-TEMPO DE EXECUÇÃO: 0.043308
+TEMPO DE EXECUÇÃO: 0.041364
 NUMERO DE COMPARACOES: 1964199
  ------------------------------------------- 
 QuicksortSelecao 500000
-TEMPO DE EXECUÇÃO: 0.225073
+TEMPO DE EXECUÇÃO: 0.220507
 NUMERO DE COMPARACOES: 11052415
  ------------------------------------------- 
 QuicksortSelecao 1000000
-TEMPO DE EXECUÇÃO: 0.477833
+TEMPO DE EXECUÇÃO: 0.492669
 NUMERO DE COMPARACOES: 25059878
  ------------------------------------------- 
 ------------------------- QuicksortSelecao -------------------------------------- 
 QuicksortSelecao 1000
-TEMPO DE EXECUÇÃO: 0.000461
+TEMPO DE EXECUÇÃO: 0.000490
 NUMERO DE COMPARACOES: 13709
  ------------------------------------------- 
 QuicksortSelecao 5000
-TEMPO DE EXECUÇÃO: 0.001779
+TEMPO DE EXECUÇÃO: 0.001768
 NUMERO DE COMPARACOES: 79582
  ------------------------------------------- 
 QuicksortSelecao 10000
-TEMPO DE EXECUÇÃO: 0.003729
+TEMPO DE EXECUÇÃO: 0.003846
 NUMERO DE COMPARACOES: 175770
  ------------------------------------------- 
 QuicksortSelecao 50000
-TEMPO DE EXECUÇÃO: 0.020274
+TEMPO DE EXECUÇÃO: 0.020403
 NUMERO DE COMPARACOES: 1016086
  ------------------------------------------- 
 QuicksortSelecao 100000
-TEMPO DE EXECUÇÃO: 0.041089
+TEMPO DE EXECUÇÃO: 0.042858
 NUMERO DE COMPARACOES: 2088347
  ------------------------------------------- 
 QuicksortSelecao 500000
-TEMPO DE EXECUÇÃO: 0.235343
+TEMPO DE EXECUÇÃO: 0.241704
 NUMERO DE COMPARACOES: 11882288
  ------------------------------------------- 
 QuicksortSelecao 1000000
-TEMPO DE EXECUÇÃO: 0.504185
+TEMPO DE EXECUÇÃO: 0.546927
 NUMERO DE COMPARACOES: 24776732
  ------------------------------------------- 
 ------------------------- QuicksortNaoRecursivo -------------------------------------- 
 QuicksortNaoRecursivo 1000
-TEMPO DE EXECUÇÃO: 0.000551
+TEMPO DE EXECUÇÃO: 0.000679
 NUMERO DE COMPARACOES: 10398
  ------------------------------------------- 
 QuicksortNaoRecursivo 5000
-TEMPO DE EXECUÇÃO: 0.002078
+TEMPO DE EXECUÇÃO: 0.002452
 NUMERO DE COMPARACOES: 56781
  ------------------------------------------- 
 QuicksortNaoRecursivo 10000
-TEMPO DE EXECUÇÃO: 0.004578
+TEMPO DE EXECUÇÃO: 0.004848
 NUMERO DE COMPARACOES: 116215
  ------------------------------------------- 
 QuicksortNaoRecursivo 50000
-TEMPO DE EXECUÇÃO: 0.022714
+TEMPO DE EXECUÇÃO: 0.023405
 NUMERO DE COMPARACOES: 626355
  ------------------------------------------- 
 QuicksortNaoRecursivo 100000
-TEMPO DE EXECUÇÃO: 0.046132
+TEMPO DE EXECUÇÃO: 0.045829
 NUMERO DE COMPARACOES: 1278699
  ------------------------------------------- 
 QuicksortNaoRecursivo 500000
-TEMPO DE EXECUÇÃO: 0.234777
+TEMPO DE EXECUÇÃO: 0.233617
 NUMERO DE COMPARACOES: 6268281
  ------------------------------------------- 
 QuicksortNaoRecursivo 1000000
-TEMPO DE EXECUÇÃO: 0.483761
+TEMPO DE EXECUÇÃO: 0.485659
 NUMERO DE COMPARACOES: 12800893
  ------------------------------------------- 
 ------------------------- QuicksortEmpilha -------------------------------------- 
 QuicksortEmpilha 1000
-TEMPO DE EXECUÇÃO: 0.000822
+TEMPO DE EXECUÇÃO: 0.000797
 NUMERO DE COMPARACOES: 38371
  ------------------------------------------- 
 QuicksortEmpilha 5000
-TEMPO DE EXECUÇÃO: 0.003567
+TEMPO DE EXECUÇÃO: 0.004964
 NUMERO DE COMPARACOES: 227445
  ------------------------------------------- 
 QuicksortEmpilha 10000
-TEMPO DE EXECUÇÃO: 0.007164
+TEMPO DE EXECUÇÃO: 0.008007
 NUMERO DE COMPARACOES: 475139
  ------------------------------------------- 
 QuicksortEmpilha 50000
-TEMPO DE EXECUÇÃO: 0.040537
+TEMPO DE EXECUÇÃO: 0.055172
 NUMERO DE COMPARACOES: 2773046
  ------------------------------------------- 
 QuicksortEmpilha 100000
-TEMPO DE EXECUÇÃO: 0.081502
+TEMPO DE EXECUÇÃO: 0.091779
 NUMERO DE COMPARACOES: 5787479
  ------------------------------------------- 
 QuicksortEmpilha 500000
-TEMPO DE EXECUÇÃO: 0.446863
+TEMPO DE EXECUÇÃO: 0.439891
 NUMERO DE COMPARACOES: 31781274
  ------------------------------------------- 
 QuicksortEmpilha 1000000
-TEMPO DE EXECUÇÃO: 0.939799
+TEMPO DE EXECUÇÃO: 0.910479
 NUMERO DE COMPARACOES: 65671510
  ------------------------------------------- 
