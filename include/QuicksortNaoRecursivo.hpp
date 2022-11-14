@@ -16,13 +16,10 @@ class QuicksortNaoRecursivo : public Vetor{
             
             do{
                 while (x > elements[*i]) (*i)++;
-
                 while (x < elements[*j]) (*j)--;
                 stats->comparar();
                 if (*i <= *j){
-                    w = elements[*i]; 
-                    elements[*i] = elements[*j]; 
-                    elements[*j] = w;
+                    swap(*i,*j);
                     (*i)++; (*j)--;
                 }
             } while (*i <= *j);
@@ -66,6 +63,7 @@ class QuicksortNaoRecursivo : public Vetor{
                     item=pilha.Desempilha();
                     dir = item.dir;
                     esq = item.esq;
+                    stats->trocar();
                 }
                 stats->comparar();
             } while (!pilha.Vazia());

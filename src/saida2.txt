@@ -1,261 +1,324 @@
 ------------------------- QuicksortNaoRecursivo -------------------------------------- 
 QuicksortNaoRecursivo 1000
-TEMPO DE EXECUÇÃO: 0.000516
+TEMPO DE EXECUÇÃO: 0.000669
 NUMERO DE COMPARACOES: 10398
+NUMERO DE TROCAS: 4473
  ------------------------------------------- 
 QuicksortNaoRecursivo 5000
-TEMPO DE EXECUÇÃO: 0.003614
+TEMPO DE EXECUÇÃO: 0.002472
 NUMERO DE COMPARACOES: 56781
+NUMERO DE TROCAS: 25809
  ------------------------------------------- 
 QuicksortNaoRecursivo 10000
-TEMPO DE EXECUÇÃO: 0.004215
+TEMPO DE EXECUÇÃO: 0.005031
 NUMERO DE COMPARACOES: 116215
+NUMERO DE TROCAS: 54281
  ------------------------------------------- 
 QuicksortNaoRecursivo 50000
-TEMPO DE EXECUÇÃO: 0.023444
+TEMPO DE EXECUÇÃO: 0.027157
 NUMERO DE COMPARACOES: 626355
+NUMERO DE TROCAS: 303484
  ------------------------------------------- 
 QuicksortNaoRecursivo 100000
-TEMPO DE EXECUÇÃO: 0.045899
+TEMPO DE EXECUÇÃO: 0.055330
 NUMERO DE COMPARACOES: 1278699
+NUMERO DE TROCAS: 631333
  ------------------------------------------- 
 QuicksortNaoRecursivo 500000
-TEMPO DE EXECUÇÃO: 0.234947
+TEMPO DE EXECUÇÃO: 0.301871
 NUMERO DE COMPARACOES: 6268281
+NUMERO DE TROCAS: 3294444
  ------------------------------------------- 
 QuicksortNaoRecursivo 1000000
-TEMPO DE EXECUÇÃO: 0.481830
+TEMPO DE EXECUÇÃO: 0.610930
 NUMERO DE COMPARACOES: 12800893
+NUMERO DE TROCAS: 6853808
  ------------------------------------------- 
 ------------------------- HeapSort -------------------------------------- 
 HeapSort 1000
-TEMPO DE EXECUÇÃO: 0.000561
+TEMPO DE EXECUÇÃO: 0.000840
 NUMERO DE COMPARACOES: 29014
+NUMERO DE TROCAS: 8118
  ------------------------------------------- 
 HeapSort 5000
-TEMPO DE EXECUÇÃO: 0.002311
+TEMPO DE EXECUÇÃO: 0.002769
 NUMERO DE COMPARACOES: 179780
+NUMERO DE TROCAS: 52080
  ------------------------------------------- 
 HeapSort 10000
-TEMPO DE EXECUÇÃO: 0.004723
+TEMPO DE EXECUÇÃO: 0.006029
 NUMERO DE COMPARACOES: 389392
+NUMERO DE TROCAS: 114148
  ------------------------------------------- 
 HeapSort 50000
-TEMPO DE EXECUÇÃO: 0.027497
+TEMPO DE EXECUÇÃO: 0.034957
 NUMERO DE COMPARACOES: 2297353
+NUMERO DE TROCAS: 687583
  ------------------------------------------- 
 HeapSort 100000
-TEMPO DE EXECUÇÃO: 0.058626
+TEMPO DE EXECUÇÃO: 0.071689
 NUMERO DE COMPARACOES: 4895464
+NUMERO DE TROCAS: 1475330
  ------------------------------------------- 
 HeapSort 500000
-TEMPO DE EXECUÇÃO: 0.352886
+TEMPO DE EXECUÇÃO: 0.428093
 NUMERO DE COMPARACOES: 27920793
+NUMERO DE TROCAS: 8523711
  ------------------------------------------- 
 HeapSort 1000000
-TEMPO DE EXECUÇÃO: 0.789601
+TEMPO DE EXECUÇÃO: 0.918197
 NUMERO DE COMPARACOES: 58842635
+NUMERO DE TROCAS: 18048047
  ------------------------------------------- 
 ------------------------- MergeSort -------------------------------------- 
 MergeSort 1000
-TEMPO DE EXECUÇÃO: 0.000536
+TEMPO DE EXECUÇÃO: 0.000786
 NUMERO DE COMPARACOES: 23715
+NUMERO DE TROCAS: 8727
  ------------------------------------------- 
 MergeSort 5000
-TEMPO DE EXECUÇÃO: 0.002416
+TEMPO DE EXECUÇÃO: 0.003478
 NUMERO DE COMPARACOES: 141946
+NUMERO DE TROCAS: 55123
  ------------------------------------------- 
 MergeSort 10000
-TEMPO DE EXECUÇÃO: 0.005095
+TEMPO DE EXECUÇÃO: 0.006133
 NUMERO DE COMPARACOES: 303940
+NUMERO DE TROCAS: 120308
  ------------------------------------------- 
 MergeSort 50000
-TEMPO DE EXECUÇÃO: 0.028252
+TEMPO DE EXECUÇÃO: 0.034992
 NUMERO DE COMPARACOES: 1752688
+NUMERO DE TROCAS: 718206
  ------------------------------------------- 
 MergeSort 100000
-TEMPO DE EXECUÇÃO: 0.059234
+TEMPO DE EXECUÇÃO: 0.073508
 NUMERO DE COMPARACOES: 3705472
+NUMERO DE TROCAS: 1536525
  ------------------------------------------- 
 MergeSort 500000
-TEMPO DE EXECUÇÃO: 0.325911
+TEMPO DE EXECUÇÃO: 0.399048
 NUMERO DE COMPARACOES: 20813078
+NUMERO DE TROCAS: 8837345
  ------------------------------------------- 
 MergeSort 1000000
-TEMPO DE EXECUÇÃO: 0.677492
+TEMPO DE EXECUÇÃO: 0.846238
 NUMERO DE COMPARACOES: 43625884
+NUMERO DE TROCAS: 18674438
  ------------------------------------------- 
 ------------------------- QuicksortNaoRecursivo -------------------------------------- 
 QuicksortNaoRecursivo 1000
-TEMPO DE EXECUÇÃO: 0.000584
+TEMPO DE EXECUÇÃO: 0.000699
 NUMERO DE COMPARACOES: 10377
+NUMERO DE TROCAS: 4498
  ------------------------------------------- 
 QuicksortNaoRecursivo 5000
-TEMPO DE EXECUÇÃO: 0.002127
+TEMPO DE EXECUÇÃO: 0.002522
 NUMERO DE COMPARACOES: 56858
+NUMERO DE TROCAS: 25863
  ------------------------------------------- 
 QuicksortNaoRecursivo 10000
-TEMPO DE EXECUÇÃO: 0.004253
+TEMPO DE EXECUÇÃO: 0.005237
 NUMERO DE COMPARACOES: 116474
+NUMERO DE TROCAS: 54400
  ------------------------------------------- 
 QuicksortNaoRecursivo 50000
-TEMPO DE EXECUÇÃO: 0.022662
+TEMPO DE EXECUÇÃO: 0.027012
 NUMERO DE COMPARACOES: 627965
+NUMERO DE TROCAS: 304703
  ------------------------------------------- 
 QuicksortNaoRecursivo 100000
-TEMPO DE EXECUÇÃO: 0.046134
+TEMPO DE EXECUÇÃO: 0.055897
 NUMERO DE COMPARACOES: 1282136
+NUMERO DE TROCAS: 635266
  ------------------------------------------- 
 QuicksortNaoRecursivo 500000
-TEMPO DE EXECUÇÃO: 0.234430
+TEMPO DE EXECUÇÃO: 0.283733
 NUMERO DE COMPARACOES: 6267151
+NUMERO DE TROCAS: 3295632
  ------------------------------------------- 
 QuicksortNaoRecursivo 1000000
-TEMPO DE EXECUÇÃO: 0.483108
+TEMPO DE EXECUÇÃO: 0.599526
 NUMERO DE COMPARACOES: 12785129
+NUMERO DE TROCAS: 6840033
  ------------------------------------------- 
 ------------------------- HeapSort -------------------------------------- 
 HeapSort 1000
-TEMPO DE EXECUÇÃO: 0.000528
+TEMPO DE EXECUÇÃO: 0.000657
 NUMERO DE COMPARACOES: 28995
+NUMERO DE TROCAS: 8097
  ------------------------------------------- 
 HeapSort 5000
-TEMPO DE EXECUÇÃO: 0.002318
+TEMPO DE EXECUÇÃO: 0.002776
 NUMERO DE COMPARACOES: 179800
+NUMERO DE TROCAS: 52106
  ------------------------------------------- 
 HeapSort 10000
-TEMPO DE EXECUÇÃO: 0.004792
+TEMPO DE EXECUÇÃO: 0.005742
 NUMERO DE COMPARACOES: 389312
+NUMERO DE TROCAS: 114076
  ------------------------------------------- 
 HeapSort 50000
-TEMPO DE EXECUÇÃO: 0.027807
+TEMPO DE EXECUÇÃO: 0.034354
 NUMERO DE COMPARACOES: 2297021
+NUMERO DE TROCAS: 687387
  ------------------------------------------- 
 HeapSort 100000
-TEMPO DE EXECUÇÃO: 0.058662
+TEMPO DE EXECUÇÃO: 0.071771
 NUMERO DE COMPARACOES: 4894861
+NUMERO DE TROCAS: 1475089
  ------------------------------------------- 
 HeapSort 500000
-TEMPO DE EXECUÇÃO: 0.347010
+TEMPO DE EXECUÇÃO: 0.419238
 NUMERO DE COMPARACOES: 27922069
+NUMERO DE TROCAS: 8524341
  ------------------------------------------- 
 HeapSort 1000000
-TEMPO DE EXECUÇÃO: 0.770154
+TEMPO DE EXECUÇÃO: 0.924940
 NUMERO DE COMPARACOES: 58840629
+NUMERO DE TROCAS: 18047069
  ------------------------------------------- 
 ------------------------- MergeSort -------------------------------------- 
 MergeSort 1000
-TEMPO DE EXECUÇÃO: 0.000536
+TEMPO DE EXECUÇÃO: 0.000727
 NUMERO DE COMPARACOES: 23727
+NUMERO DE TROCAS: 8739
  ------------------------------------------- 
 MergeSort 5000
-TEMPO DE EXECUÇÃO: 0.002429
+TEMPO DE EXECUÇÃO: 0.003021
 NUMERO DE COMPARACOES: 142027
+NUMERO DE TROCAS: 55204
  ------------------------------------------- 
 MergeSort 10000
-TEMPO DE EXECUÇÃO: 0.005062
+TEMPO DE EXECUÇÃO: 0.006039
 NUMERO DE COMPARACOES: 304014
+NUMERO DE TROCAS: 120382
  ------------------------------------------- 
 MergeSort 50000
-TEMPO DE EXECUÇÃO: 0.028640
+TEMPO DE EXECUÇÃO: 0.034676
 NUMERO DE COMPARACOES: 1752662
+NUMERO DE TROCAS: 718180
  ------------------------------------------- 
 MergeSort 100000
-TEMPO DE EXECUÇÃO: 0.058568
+TEMPO DE EXECUÇÃO: 0.070852
 NUMERO DE COMPARACOES: 3705497
+NUMERO DE TROCAS: 1536550
  ------------------------------------------- 
 MergeSort 500000
-TEMPO DE EXECUÇÃO: 0.332128
+TEMPO DE EXECUÇÃO: 0.404922
 NUMERO DE COMPARACOES: 20812945
+NUMERO DE TROCAS: 8837212
  ------------------------------------------- 
 MergeSort 1000000
-TEMPO DE EXECUÇÃO: 0.677018
+TEMPO DE EXECUÇÃO: 0.837221
 NUMERO DE COMPARACOES: 43626103
+NUMERO DE TROCAS: 18674657
  ------------------------------------------- 
 ------------------------- QuicksortNaoRecursivo -------------------------------------- 
 QuicksortNaoRecursivo 1000
-TEMPO DE EXECUÇÃO: 0.000598
+TEMPO DE EXECUÇÃO: 0.000675
 NUMERO DE COMPARACOES: 10343
+NUMERO DE TROCAS: 4518
  ------------------------------------------- 
 QuicksortNaoRecursivo 5000
-TEMPO DE EXECUÇÃO: 0.002217
+TEMPO DE EXECUÇÃO: 0.002493
 NUMERO DE COMPARACOES: 57039
+NUMERO DE TROCAS: 26080
  ------------------------------------------- 
 QuicksortNaoRecursivo 10000
-TEMPO DE EXECUÇÃO: 0.004319
+TEMPO DE EXECUÇÃO: 0.005306
 NUMERO DE COMPARACOES: 116462
+NUMERO DE TROCAS: 54427
  ------------------------------------------- 
 QuicksortNaoRecursivo 50000
-TEMPO DE EXECUÇÃO: 0.023799
+TEMPO DE EXECUÇÃO: 0.027283
 NUMERO DE COMPARACOES: 627712
+NUMERO DE TROCAS: 303615
  ------------------------------------------- 
 QuicksortNaoRecursivo 100000
-TEMPO DE EXECUÇÃO: 0.047224
+TEMPO DE EXECUÇÃO: 0.056301
 NUMERO DE COMPARACOES: 1278107
+NUMERO DE TROCAS: 631341
  ------------------------------------------- 
 QuicksortNaoRecursivo 500000
-TEMPO DE EXECUÇÃO: 0.240534
+TEMPO DE EXECUÇÃO: 0.292777
 NUMERO DE COMPARACOES: 6264415
+NUMERO DE TROCAS: 3290501
  ------------------------------------------- 
 QuicksortNaoRecursivo 1000000
-TEMPO DE EXECUÇÃO: 0.492964
+TEMPO DE EXECUÇÃO: 0.593096
 NUMERO DE COMPARACOES: 12811269
+NUMERO DE TROCAS: 6866165
  ------------------------------------------- 
 ------------------------- HeapSort -------------------------------------- 
 HeapSort 1000
-TEMPO DE EXECUÇÃO: 0.000531
+TEMPO DE EXECUÇÃO: 0.000748
 NUMERO DE COMPARACOES: 28921
+NUMERO DE TROCAS: 8069
  ------------------------------------------- 
 HeapSort 5000
-TEMPO DE EXECUÇÃO: 0.002255
+TEMPO DE EXECUÇÃO: 0.002927
 NUMERO DE COMPARACOES: 179860
+NUMERO DE TROCAS: 52148
  ------------------------------------------- 
 HeapSort 10000
-TEMPO DE EXECUÇÃO: 0.004800
+TEMPO DE EXECUÇÃO: 0.007419
 NUMERO DE COMPARACOES: 389696
+NUMERO DE TROCAS: 114258
  ------------------------------------------- 
 HeapSort 50000
-TEMPO DE EXECUÇÃO: 0.027341
+TEMPO DE EXECUÇÃO: 0.033366
 NUMERO DE COMPARACOES: 2297780
+NUMERO DE TROCAS: 687798
  ------------------------------------------- 
 HeapSort 100000
-TEMPO DE EXECUÇÃO: 0.058923
+TEMPO DE EXECUÇÃO: 0.071871
 NUMERO DE COMPARACOES: 4894126
+NUMERO DE TROCAS: 1474690
  ------------------------------------------- 
 HeapSort 500000
-TEMPO DE EXECUÇÃO: 0.346004
+TEMPO DE EXECUÇÃO: 0.422815
 NUMERO DE COMPARACOES: 27919708
+NUMERO DE TROCAS: 8523748
  ------------------------------------------- 
 HeapSort 1000000
-TEMPO DE EXECUÇÃO: 0.758397
+TEMPO DE EXECUÇÃO: 0.937695
 NUMERO DE COMPARACOES: 58842865
+NUMERO DE TROCAS: 18048997
  ------------------------------------------- 
 ------------------------- MergeSort -------------------------------------- 
 MergeSort 1000
-TEMPO DE EXECUÇÃO: 0.000607
+TEMPO DE EXECUÇÃO: 0.000756
 NUMERO DE COMPARACOES: 23666
+NUMERO DE TROCAS: 8678
  ------------------------------------------- 
 MergeSort 5000
-TEMPO DE EXECUÇÃO: 0.002801
+TEMPO DE EXECUÇÃO: 0.002937
 NUMERO DE COMPARACOES: 141959
+NUMERO DE TROCAS: 55136
  ------------------------------------------- 
 MergeSort 10000
-TEMPO DE EXECUÇÃO: 0.004996
+TEMPO DE EXECUÇÃO: 0.006062
 NUMERO DE COMPARACOES: 303982
+NUMERO DE TROCAS: 120350
  ------------------------------------------- 
 MergeSort 50000
-TEMPO DE EXECUÇÃO: 0.030123
+TEMPO DE EXECUÇÃO: 0.034006
 NUMERO DE COMPARACOES: 1752451
+NUMERO DE TROCAS: 717969
  ------------------------------------------- 
 MergeSort 100000
-TEMPO DE EXECUÇÃO: 0.058307
+TEMPO DE EXECUÇÃO: 0.070912
 NUMERO DE COMPARACOES: 3705203
+NUMERO DE TROCAS: 1536256
  ------------------------------------------- 
 MergeSort 500000
-TEMPO DE EXECUÇÃO: 0.331626
+TEMPO DE EXECUÇÃO: 0.403860
 NUMERO DE COMPARACOES: 20812913
+NUMERO DE TROCAS: 8837180
  ------------------------------------------- 
 MergeSort 1000000
-TEMPO DE EXECUÇÃO: 0.680608
+TEMPO DE EXECUÇÃO: 0.832454
 NUMERO DE COMPARACOES: 43625945
+NUMERO DE TROCAS: 18674499
  ------------------------------------------- 

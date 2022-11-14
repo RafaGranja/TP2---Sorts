@@ -27,9 +27,7 @@ class QuicksortEmpilha : public Vetor{
                 }
                 stats->comparar();
                 if (*i <= *j){
-                    w = elements[*i]; 
-                    elements[*i] = elements[*j]; 
-                    elements[*j] = w;
+                    swap(*i,*j);
                     (*i)++; (*j)--;
                 }
                 stats->comparar();
@@ -76,6 +74,7 @@ class QuicksortEmpilha : public Vetor{
                     item=pilha.Desempilha();
                     dir = item.dir;
                     esq = item.esq;
+                    stats->trocar();
                 }
                 stats->comparar();
             } while (!pilha.Vazia());

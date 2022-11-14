@@ -43,12 +43,14 @@ class MergeSort : public Vetor{
                 if (leftArray[indexOfSubArrayOne] <= rightArray[indexOfSubArrayTwo]) {
 
                     elements[indexOfMergedArray] = leftArray[indexOfSubArrayOne];
+                    stats->trocar();
                     indexOfSubArrayOne++;
 
                 }
                 else {
 
                     elements[indexOfMergedArray]= rightArray[indexOfSubArrayTwo];
+                    stats->trocar();
                     indexOfSubArrayTwo++;
 
                 }

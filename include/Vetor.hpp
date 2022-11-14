@@ -30,6 +30,7 @@ class Vetor{
             int k = elements[i];
             elements[i] = elements[j];
             elements[j] = k;
+            stats->trocar();
         }
 
         void snapshot (char* saida)

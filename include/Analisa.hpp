@@ -12,6 +12,7 @@ class Analisa{
 
         clock_t inicio,fim;
         int compara=0;
+        int trocas=0;
         string tipo;
         int size;
 
@@ -25,13 +26,20 @@ class Analisa{
 
         string imprime(){
             string ret;
-            ret = tipo + " " + to_string(size) +"\n"+ "TEMPO DE EXECUÇÃO: " +  to_string((double)(fim - inicio) / CLOCKS_PER_SEC) + "\n" +
-            + "NUMERO DE COMPARACOES: " + to_string(compara) + "\n" + " ------------------------------------------- \n";
+            ret = tipo + " " + to_string(size) +"\n"
+            + "TEMPO DE EXECUÇÃO: " +  to_string((double)(fim - inicio) / CLOCKS_PER_SEC) + "\n" +
+            + "NUMERO DE COMPARACOES: " + to_string(compara) + "\n" 
+            + "NUMERO DE TROCAS: " + to_string(trocas) + "\n"
+            + " ------------------------------------------- \n";
             return ret;
         }
 
         void comparar(){
             compara++;
+        }
+
+        void trocar(){
+            trocas++;
         }
 
         void reseta(){

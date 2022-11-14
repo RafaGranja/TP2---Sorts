@@ -34,6 +34,7 @@ class HeapSort: public Vetor{
                     stats->comparar();
                     if (elements[filho] > t) {
                         elements[pai] = elements[filho];
+                        stats->trocar();
                         pai = filho;
                         filho = pai * 2 + 1;
                     } else {
