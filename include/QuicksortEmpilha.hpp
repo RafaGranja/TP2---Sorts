@@ -12,16 +12,16 @@ class QuicksortEmpilha : public Vetor{
            
             int x, w;
             *i = Esq; *j = Dir;
-            x = elements[(*i + *j)/2]; /* obtem o pivo x */
+            x = elements[(*i + *j)/2].key; /* obtem o pivo x */
             
             do{
                 stats->comparar();
-                while (x > elements[*i]){
+                while (x > elements[*i].key){
                     stats->comparar();
                     (*i)++;
                 }
                 stats->comparar();
-                while (x < elements[*j]){ 
+                while (x < elements[*j].key){ 
                     stats->comparar();
                     (*j)--;
                 }

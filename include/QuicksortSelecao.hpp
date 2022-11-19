@@ -10,9 +10,9 @@ class QuicksortSelecao : public Vetor{
         int partition(int inicio, int fim, int part) {
 
             int separa = ((inicio + fim)%part)+inicio;
-            int a = elements[inicio];
-            int b = elements[separa];
-            int c = elements[fim];
+            int a = elements[inicio].key;
+            int b = elements[separa].key;
+            int c = elements[fim].key;
             int separaIndice; 
             
             stats->comparar();
@@ -52,7 +52,7 @@ class QuicksortSelecao : public Vetor{
                 
             //*******************ALGORITMO DE PARTIÇÃO DE CORMEN*********************
             //o pivo é o elemento final
-            int pivo = elements[fim];
+            int pivo = elements[fim].key;
             int i = inicio - 1;
             int j;
             /*
@@ -62,7 +62,7 @@ class QuicksortSelecao : public Vetor{
             */
             for (j = inicio; j <= fim - 1; j++) {
                 stats->comparar();
-                if (elements[j] <= pivo) {
+                if (elements[j].key <= pivo) {
                     i = i + 1;
                     swap(i, j);
                 }

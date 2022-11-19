@@ -23,9 +23,9 @@ class MergeSort : public Vetor{
         
             // Copy data to tempelementss leftArray[] and rightArray[]
             for (auto i = 0; i < subArrayOne; i++)
-                leftArray[i] = elements[left + i];
+                leftArray[i] = elements[left + i].key;
             for (auto j = 0; j < subArrayTwo; j++)
-                rightArray[j] = elements[mid + 1 + j];
+                rightArray[j] = elements[mid + 1 + j].key;
         
             auto indexOfSubArrayOne
                 = 0, // Initial index of first sub-array
@@ -42,14 +42,14 @@ class MergeSort : public Vetor{
                 stats->comparar();
                 if (leftArray[indexOfSubArrayOne] <= rightArray[indexOfSubArrayTwo]) {
 
-                    elements[indexOfMergedArray] = leftArray[indexOfSubArrayOne];
+                    elements[indexOfMergedArray].key = leftArray[indexOfSubArrayOne];
                     stats->trocar();
                     indexOfSubArrayOne++;
 
                 }
                 else {
 
-                    elements[indexOfMergedArray]= rightArray[indexOfSubArrayTwo];
+                    elements[indexOfMergedArray].key= rightArray[indexOfSubArrayTwo];
                     stats->trocar();
                     indexOfSubArrayTwo++;
 
@@ -62,7 +62,8 @@ class MergeSort : public Vetor{
             while (indexOfSubArrayOne < subArrayOne) {
 
                 stats->comparar();
-                elements[indexOfMergedArray] = leftArray[indexOfSubArrayOne];
+                elements[indexOfMergedArray].key = leftArray[indexOfSubArrayOne];
+                stats->trocar();
                 indexOfSubArrayOne++;
                 indexOfMergedArray++;
 
@@ -73,7 +74,8 @@ class MergeSort : public Vetor{
             while (indexOfSubArrayTwo < subArrayTwo) {
 
                 stats->comparar();
-                elements[indexOfMergedArray] = rightArray[indexOfSubArrayTwo];
+                elements[indexOfMergedArray].key = rightArray[indexOfSubArrayTwo];
+                stats->trocar();
                 indexOfSubArrayTwo++;
                 indexOfMergedArray++;
             }

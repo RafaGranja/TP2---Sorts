@@ -12,11 +12,11 @@ class QuicksortNaoRecursivo : public Vetor{
            
             int x, w;
             *i = Esq; *j = Dir;
-            x = elements[(*i + *j)/2]; /* obtem o pivo x */
+            x = elements[(*i + *j)/2].key; /* obtem o pivo x */
             
             do{
-                while (x > elements[*i]) (*i)++;
-                while (x < elements[*j]) (*j)--;
+                while (x > elements[*i].key) (*i)++;
+                while (x < elements[*j].key) (*j)--;
                 stats->comparar();
                 if (*i <= *j){
                     swap(*i,*j);

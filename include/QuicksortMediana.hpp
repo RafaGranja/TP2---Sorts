@@ -11,9 +11,9 @@ class QuicksortMediana : public Vetor{
         int partition(int inicio, int fim) {
             //procura a mediana entre inicio, meio e fim
             int meio = (inicio + fim) / 2;
-            int a = elements[inicio];
-            int b = elements[meio];
-            int c = elements[fim];
+            int a = elements[inicio].key;
+            int b = elements[meio].key;
+            int c = elements[fim].key;
             int medianaIndice; //índice da mediana
             //A sequência de if...else a seguir verifica qual é a mediana
             stats->comparar();
@@ -52,7 +52,7 @@ class QuicksortMediana : public Vetor{
                 
             //*******************ALGORITMO DE PARTIÇÃO DE CORMEN*********************
             //o pivo é o elemento final
-            int pivo = elements[fim];
+            int pivo = elements[fim].key;
             int i = inicio - 1;
             int j;
             /*
@@ -62,7 +62,7 @@ class QuicksortMediana : public Vetor{
             */
             for (j = inicio; j <= fim - 1; j++) {
                 stats->comparar();
-                if (elements[j] <= pivo) {
+                if (elements[j].key <= pivo) {
                     i = i + 1;
                     swap(i, j);
                 }

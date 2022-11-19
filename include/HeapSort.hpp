@@ -15,25 +15,25 @@ class HeapSort: public Vetor{
                 stats->comparar();
                 if (i > 0) {
                     i--;
-                    t = elements[i];
+                    t = elements[i].key;
                 } else {
                     n--;
                     stats->comparar();
                     if (n <= 0) return;
-                    t = elements[n];
-                    elements[n] = elements[0];
+                    t = elements[n].key;
+                    elements[n].key = elements[0].key;
                 }
                 pai = i;
                 filho = i * 2 + 1;
                 stats->comparar();
                 while (filho < n) {
                     stats->comparar();
-                    if ((filho + 1 < n)  &&  (elements[filho + 1] > elements[filho])){
+                    if ((filho + 1 < n)  &&  (elements[filho + 1].key > elements[filho].key)){
                         filho++;
                     }
                     stats->comparar();
-                    if (elements[filho] > t) {
-                        elements[pai] = elements[filho];
+                    if (elements[filho].key > t) {
+                        elements[pai].key = elements[filho].key;
                         stats->trocar();
                         pai = filho;
                         filho = pai * 2 + 1;
@@ -42,7 +42,7 @@ class HeapSort: public Vetor{
                     }
                     stats->comparar();
                 }
-                elements[pai] = t;
+                elements[pai].key = t;
             }
         }
         

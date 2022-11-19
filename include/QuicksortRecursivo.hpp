@@ -13,7 +13,7 @@ class QuicksortRecursivo : public Vetor{
             for (int j = start; j < end; j++) {
                 stats->comparar();
                 /*  Elemento atual menor ou igual ao pivô? */
-                if (elements[j] <= elements[end]) {
+                if (elements[j].key <= elements[end].key) {
                     swap(i++, j);
                 }
             }
